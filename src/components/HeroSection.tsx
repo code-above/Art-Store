@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import hero from '../../src/assets/hero.jpg'
+// import hero from '../../src/assets/hero.jpg'
 import HeroContent from '../../src/components/HeroContent'
 
 

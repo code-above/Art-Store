@@ -1,40 +1,44 @@
 import Image from 'next/Image'
-import clock from '../../src/assets/clock.svg'
-import icon2 from '../../src/assets/icon2.png'
-import icon from '../../src/assets/icon.png'
+import clock from '../../src/assets/clock.png'
+import responsive from '../../src//assets/responsive.png'
+import dynamic from '../../src/assets/dynamic.png'
+
+
 
 
 
 export default function InfoBox() {
 
     return (
-        <div className="container mx-auto justify-center rounded-3xl block w-3/4 md:w-full md:w-2/3 md:flex my-24 bg-gradient-to-b from-light-blue-gradient to-dark-blue-gradient"> 
+        <div className="justify-center items-center px-12 md:px-24">
+        <div className="px-8 container justify-center rounded-3xl block w-3/4 md:w-full  md:flex my-24 bg-beige"> 
             
-          <div className="md:grid grid-cols-3 text-white py-10">
-            <div className="px-16 md:px-4">
+          <div className="md:grid grid-cols-3 py-10">
+            <div className="py-6 px-16 md:px-4 ">
                 <Image
                     src={clock}
                     />
-                <h3 className="font-bold pl-4">Lorem Ipsum</h3>
-                    <p className="pl-4 pb-8 md:pb-0 max-w-xs font-thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h3 className="font-bold pb-2 text-slate-700">Save yourself time</h3>
+                    <p className="max-w-xs font-md md:pb-0 text-slate-500">You have enough on your plate, let me help with your design with fast load times</p>
             </div>
 
-            <div className="px-16 md:px-4 pt-3">
+            <div className="py-6 px-16 md:px-4 ">
                 <Image
-                    src={icon2}
+                    src={responsive}
                     />
-                     <h3 className="font-bold pt-4">Lorem Ipsum</h3>
-                    <p className=" max-w-xs font-thin pb-8 md:pb-0 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                     <h3 className="font-bold pb-2 text-slate-700">Responsive</h3>
+                    <p className=" max-w-xs font-md md:pb-0 text-slate-500">I'll make sue your content looks fabulous on all devices</p>
             </div>
 
-             <div className="pt-3 px-16 md:px-4">
+             <div className="py-6 px-16 md:px-4">
                 <Image
-                    src={icon}
+                    src={dynamic}
                     />
-                     <h3 className="font-bold pt-6">Lorem Ipsum</h3>
-                    <p className=" max-w-xs font-thin pb-8 md:pb-0 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                     <h3 className="font-bold text-slate-700 pb-2">Dynamic</h3>
+                    <p className=" max-w-xs font-md md:pb-0 text-slate-500 ">You can choose static content, or you can choose to have more interactivity enhacing the user experience</p>
              </div>
           </div>
+        </div>
         </div>
     )
 }

@@ -1,8 +1,8 @@
 export default function LoginButton() {
     return (
         <>
-        <div className=" my-6 z-30">
-            <button className="text-blue-button font-bold md:text-2xl text-lg">Log In</button>
+        <div className="z-30 px-2">
+            <button className="text-slate-600 font-normal md:text-2xl text-lg hover:ring-slate-300 hover:ring-offset-2 hover:ring-2 hover:rounded-full px-3">About</button>
         </div>
         </>
     )
