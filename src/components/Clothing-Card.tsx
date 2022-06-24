@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Link from 'next/Link'
-import store from '../../src/assets/store.png'
 import clothingstoredemo from '../../src/assets/clothing-store-demo.png'
 
 
@@ -12,7 +11,7 @@ export default function ClothingCard() {
             <Image src={clothingstoredemo} />
           <div class="px-6 py-4"> 
           <Link href="https://code-above.github.io/Clothing-Store/public/index.html">
-            <div class="font-bold text-xl mb-2 cursor-pointer">Clothing Store </div>
+            <div class="font-bold text-xl mb-2 cursor-pointer">Fashionably Yours </div>
         </Link>
             <p class="text-gray-700 text-base">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.

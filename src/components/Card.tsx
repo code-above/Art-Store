@@ -11,7 +11,7 @@ export default function Card() {
             <Image src={store} />
           <div class="px-6 py-4"> 
           <Link href="https://code-above.github.io/shopp-1/shopp-1/public/#chair-description">
-            <div class="font-bold text-xl mb-2 cursor-pointer">Furniture Store </div>
+            <div class="font-bold text-xl mb-2 cursor-pointer">Modern Furniture </div>
         </Link>
             <p class="text-gray-700 text-base">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
