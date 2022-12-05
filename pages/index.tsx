@@ -13,6 +13,12 @@ import Card from '../src/components/Card'
 import ClothingCard from '../src/components/Clothing-Card'
 import ArtCard from '../src/components/Art-Card'
 import FitnessCard from '../src/components/Fitness-Card'
+import PatioCard from '../src/components/PatioCard'
+import NikeCard from '../src/components/NikeCard'
+import ShoesCard from '../src/components/ShoesCard'
+
+
+
 
 
 
@@ -42,6 +48,9 @@ export default function Home() {
             <ClothingCard />
             <ArtCard />
             <FitnessCard />
+            <PatioCard />
+            <NikeCard />
+            <ShoesCard />
 
         </div>
 
